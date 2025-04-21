@@ -102,6 +102,16 @@ ul{
     .texte-marque-container , section{
         padding: 20px;
     }
+    .herost-1 {
+        border-top: 1px solid #EAEAEA;
+        /* height: 500px; */
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
     .heros-1 {
         border-top: 1px solid #EAEAEA;
         /* height: 500px; */
@@ -173,7 +183,18 @@ ul{
     }
 }
 @media (min-width: 1200px) {
+.plam {
+    padding-top: 50px;
+}
+.herost-1 {
+    border-top: 1px solid #EAEAEA;
+    /* height: 500px; */
+    width: 100%;
 
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
 .heros-1 {
     border-top: 1px solid #EAEAEA;
     /* height: 500px; */
@@ -356,6 +377,7 @@ ul{
 .paginate{
     display: flex;
     gap: 10px;
+    padding-top: 100px;
 }
 .active{
     background-color: #0270B9;
@@ -431,6 +453,18 @@ ul{
   
   /* Responsive */
   @media (min-width: 768px) {
+    .footer-content-1 {
+        width: 100%!important;
+
+    }
+    .footer-content-2 {
+        width: 100%!important;
+
+    }
+    .footer-content-3 {
+        width: 100%!important;
+
+    } 
     .texte-marque-container{
 
         width: 50%;
@@ -465,6 +499,9 @@ ul{
     .text-cont{
         width: 100%;display: flex;align-items: center;justify-content: start;gap: 20px;
     }
+    .footer-logos{
+        width: 250px!important;
+    }
   }
   @media (max-width: 768px) {
     .texte-marque-container{
@@ -473,7 +510,18 @@ ul{
     
     
     }
-    
+    .footer-content-1 {
+        width: 100%!important;
+
+    }
+    .footer-content-2 {
+        width: 100%!important;
+
+    }
+    .footer-content-3 {
+        width: 100%!important;
+
+    } 
     .text-cont{
         width: 100%;display: flex;align-items: center;justify-content: start;gap: 20px;flex-direction: column;
     }
@@ -500,11 +548,15 @@ ul{
         flex-direction: column;
         padding: 20px;
     }
+    
     .footer-content {
         width: 100%!important;
     }
     .footer-logos{
         width: 150px!important;
+    }
+    .footer-logos-1{
+        width: 100%!important;
     }
     header .container {
         display: flex;
